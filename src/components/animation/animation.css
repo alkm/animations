@@ -1,0 +1,174 @@
+.bubbles-design{
+  position :absolute;
+  border-radius: 50%;
+  -webkit-animation: mymove 120s; /* Safari 4.0 - 8.0 */
+  animation: mymove 120s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  to {left:1920px; top: -150px;}
+  0% {
+    transform: scale(1.0);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
+
+/* Standard syntax */
+@keyframes mymove {
+  to {left:1920px; top: -30px;}
+  0% {
+    transform: scale(1.0);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
+
+.bubble-drops{
+	position: relative;
+	margin-left: -900px;
+	margin-top: 700px;
+	height: 300px;
+	width: 300px;
+	-webkit-animation: bubbledrop-ani 60s ; /* Safari 4.0 - 8.0 */
+	-webkit-animation-fill-mode: forwards; animation-fill-mode: forwards;
+  	animation: bubbledrop-ani 120s;
+  	margin-left: 50px;
+  	overflow: hidden;
+}
+.obj-1a,.obj-1b, .obj-2a,.obj-2b, .obj-3a,.obj-3b, .obj-4a,.obj-4b, .obj-5a,.obj-5b,.obj-6a, .obj-6b, .obj-7a, .obj-7b,  .obj-8a, .obj-8b{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background: #00ff00;
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+}
+.obj-center, .obj-animate{
+	position: absolute;
+	border-radius: 50%;
+	left: 48%;
+	top: 48%;
+	height: 20px;
+	width: 20px;	
+}
+
+.obj-animate{
+	 background: rgba(255, 255, 255, 0.0);
+	 border: 1px solid rgba(255, 255, 255, 0.0);
+	-webkit-animation-fill-mode: forwards; 
+	animation-fill-mode: forwards;
+  	-webkit-animation: scale-ani 3s; animation: scale-ani 3s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; animation-delay: 48s;
+}
+.obj-move{
+	height: 15px;
+	width: 15px;
+	background: #ffffff;
+	opacity: 0.7;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 50%;
+	left: 0%;
+	top: 400px;
+	position: absolute;
+	-webkit-animation-fill-mode: forwards; 
+	animation-fill-mode: forwards;
+  	-webkit-animation: move-ani 3s; animation: move-ani 3s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; animation-delay: 46s;
+}
+
+.show{
+	opacity: 1;
+}
+.hidden{
+	opacity: 0
+}
+
+
+.obj-1a{-webkit-animation: ani-1a 3s; animation: ani-1a 3s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; animation-delay: 30s;}
+.obj-1b{-webkit-animation: ani-1b 3s; animation: ani-1b 3s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards;  animation-delay: 30s;}
+
+.obj-2a{-webkit-animation: ani-2a 3s; animation: ani-2a 3s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; animation-delay: 32s;}
+.obj-2b{-webkit-animation: ani-2b 3s; animation: ani-2b 3s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards;  animation-delay: 32s;}
+
+.obj-3a{-webkit-animation: ani-3a 3s; animation: ani-3a 3s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; animation-delay: 34s;}
+.obj-3b{-webkit-animation: ani-3b 3s; animation: ani-3b 3s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards;  animation-delay: 34s;}
+
+.obj-4a{-webkit-animation: ani-4a 3s; animation: ani-4a 3s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; animation-delay: 36s;}
+.obj-4b{-webkit-animation: ani-4b 3s; animation: ani-4b 3s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards;  animation-delay: 36s;}
+
+.obj-5a{-webkit-animation: ani-5a 3s; animation: ani-5a 3s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; animation-delay: 38s;}
+.obj-5b{-webkit-animation: ani-5b 3s; animation: ani-5b 3s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards;  animation-delay: 38s;}
+
+.obj-6a{-webkit-animation: ani-6a 3s; animation: ani-6a 3s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; animation-delay: 40s;}
+.obj-6b{-webkit-animation: ani-6b 3s; animation: ani-6b 3s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards;  animation-delay: 40s;}
+
+.obj-7a{-webkit-animation: ani-7a 3s; animation: ani-7a 3s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; animation-delay: 42s;}
+.obj-7b{-webkit-animation: ani-7b 3s; animation: ani-7b 3s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards;  animation-delay: 42s;}
+
+.obj-8a{-webkit-animation: ani-8a 3s; animation: ani-8a 3s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; animation-delay: 44s;}
+.obj-8b{-webkit-animation: ani-8b 3s; animation: ani-8b 3s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards;  animation-delay: 44s;}
+
+@keyframes ani-1a {to{left: 25%; top: 50%;}}
+@keyframes ani-1b{to{left: 75%; top: 50%;}}
+
+@keyframes ani-2a {to{left: 50%; top: 25%;}}
+@keyframes ani-2b{to{left: 50%; top: 75%;}}
+
+@keyframes ani-3a {to{left: 31.25%; top: 31.25%;}}
+@keyframes ani-3b{to{left: 68.25%; top: 68.25%;}}
+
+@keyframes ani-4a{to{left: 31.25%; top: 68.25%;}}
+@keyframes ani-4b{to{left: 68.25%; top: 31.25%;}}
+
+@keyframes ani-5a {to{left: 12.5%; top: 31.25%;}}
+@keyframes ani-5b{to{left: 87.5%; top: 68.25%;}}
+
+@keyframes ani-6a {to{left: 31.25%; top: 12.5%;}}
+@keyframes ani-6b{to{left: 68.25%; top: 87.5%;}}
+
+@keyframes ani-7a {to{left: 68.25%; top: 12.5%;}}
+@keyframes ani-7b{to{left: 31.25%; top: 87.5%;}}
+
+@keyframes ani-8a {to{left: 12.5%; top: 68.25%;}}
+@keyframes ani-8b{to{left: 87.5%; top: 31.25%;}}
+
+
+
+
+@keyframes bubbledrop-ani{
+	to {
+		margin-left: 1920px;
+		margin-top: -30px;
+	}
+
+	100% {
+		transform: scale(0.5);
+	}
+}
+
+@keyframes scale-ani{
+	0%{
+		transform: scale(1);
+		 border: 1px solid rgba(255, 255, 255, 0.0);
+	}
+
+	100% {
+		transform: scale(13);
+		 border: 1px solid rgba(255, 255, 255, 1);
+	}
+}
+
+
+@keyframes move-ani{
+
+	to{
+		left: 48%;
+		top: 47.5%;
+	}
+
+}
+

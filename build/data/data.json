@@ -1,0 +1,332 @@
+{  
+   "bubbles":[  
+      {  
+         "id":"1",
+         "height":"20px",
+         "width":"20px",
+         "left": "-2100px", 
+         "top": "2000px",
+         "backgroundColor": "#ff0000",
+         "opacity": "1",
+         "borderColor":"#ffffff" 
+      },
+      {  
+         "id":"2",
+         "height":"15px",
+         "width":"15px",
+         "left": "-2100px", 
+         "top": "300px",
+         "backgroundColor": "#00ff00",
+         "opacity": "1",
+         "borderColor":"#ffffff" 
+      },
+      {  
+         "id":"3",
+         "height":"12px",
+         "width":"12px",
+         "left": "-2000px", 
+         "top": "700px",
+         "backgroundColor": "#0000ff",
+         "opacity": "0.5",
+         "borderColor":"#ffffff" 
+      },
+      {  
+         "id":"4",
+         "height":"25px",
+         "width":"25px",
+         "left": "-1500px", 
+         "top": "1000px",
+         "backgroundColor": "#ff00ff",
+         "opacity": "0.5",
+         "borderColor":"#0000ff" 
+      },
+      {  
+         "id":"5",
+         "height":"19px",
+         "width":"19px",
+         "left": "-1800px", 
+         "top": "1100px",
+         "backgroundColor": "#fff000",
+         "opacity": "0.5",
+         "borderColor":"#0000ff" 
+      },
+      {  
+         "id":"6",
+         "height":"30px",
+         "width":"30px",
+          "left": "-100px", 
+         "top": "100px",
+          "backgroundColor": "#ffffff",
+         "opacity": "0.5",
+         "borderColor":"#0000ff" 
+      },
+      {  
+         "id":"7",
+         "height":"20px",
+         "width":"20px",
+         "left": "-3000px", 
+         "top": "1140px",
+         "backgroundColor": "#ff0000",
+         "opacity": "1",
+         "borderColor":"#ffffff" 
+      },
+      {  
+         "id":"8",
+         "height":"15px",
+         "width":"15px",
+         "left": "-1600px", 
+         "top": "510px",
+         "backgroundColor": "#00ff00",
+         "opacity": "1",
+         "borderColor":"#ffffff" 
+      },
+      {  
+         "id":"9",
+         "height":"12px",
+         "width":"12px",
+         "left": "-70px", 
+         "top": "700px",
+         "backgroundColor": "#0000ff",
+         "opacity": "0.5",
+         "borderColor":"#ffffff" 
+      },
+      {  
+         "id":"10",
+         "height":"25px",
+         "width":"25px",
+         "left": "-110px", 
+         "top": "1000px",
+         "backgroundColor": "#ff00ff",
+         "opacity": "0.5",
+         "borderColor":"#0000ff" 
+      },
+      {  
+         "id":"11",
+         "height":"19px",
+         "width":"19px",
+         "left": "-1800px", 
+         "top": "800px",
+         "backgroundColor": "#fff000",
+         "opacity": "0.5",
+         "borderColor":"#0000ff" 
+      },
+      {  
+         "id":"12",
+         "height":"30px",
+         "width":"30px",
+          "left": "-1550px", 
+         "top": "1200px",
+          "backgroundColor": "#ffffff",
+         "opacity": "0.5",
+         "borderColor":"#0000ff" 
+      },
+      {  
+         "id":"13",
+         "height":"30px",
+         "width":"30px",
+          "left": "-10px", 
+         "top": "2000px",
+          "backgroundColor": "#f0f0f0",
+         "opacity": "0.5",
+         "borderColor":"#0000ff" 
+      },
+      {  
+         "id":"14",
+         "height":"30px",
+         "width":"30px",
+          "left": "-100px", 
+         "top": "900px",
+          "backgroundColor": "#ffffff",
+         "opacity": "0.5",
+         "borderColor":"#0000ff" 
+      },
+      {  
+         "id":"15",
+         "height":"30px",
+         "width":"30px",
+          "left": "-2450px", 
+         "top": "1200px",
+          "backgroundColor": "#0ff0ff",
+         "opacity": "0.5",
+         "borderColor":"#0000ff" 
+      }
+   ],
+    "bubbledrops":[  
+      {  
+      	 "id":"16",
+      	 "className": "small-bubble-drops",
+         "height":"30px",
+         "width":"30px",
+         "margin-left": "-250px", 
+         "margin-top": "500px",
+         "backgroundColor": "#00ff00",
+         "opacity": "1",
+         "borderColor":"#0000ff",
+         "bubbles": [
+         	    		{  
+					        "id":"1a",
+					        "height":"30px",
+					        "width":"30px",
+					        "left": "-2450px", 
+					        "top": "1200px",
+					        "backgroundColor": "#0ff0ff",
+					        "opacity": "0.5",
+					        "borderColor":"#0000ff" 
+					    },
+	            		{  
+					        "id":"1b",
+					        "height":"30px",
+					        "width":"30px",
+					        "left": "-2450px", 
+					        "top": "1200px",
+					        "backgroundColor": "#0ff0ff",
+					        "opacity": "0.5",
+					        "borderColor":"#0000ff" 
+	      				},
+
+            			{  
+         					"id":"2a",
+         					"height":"30px",
+         					"width":"30px",
+          					"left": "-2450px", 
+         					"top": "1200px",
+          					"backgroundColor": "#0ff0ff",
+         					"opacity": "0.5",
+         					"borderColor":"#0000ff" 
+      					},
+            			{  
+							"id":"2b",
+							"height":"30px",
+							"width":"30px",
+							"left": "-2450px", 
+							"top": "1200px",
+							"backgroundColor": "#0ff0ff",
+							"opacity": "0.5",
+							"borderColor":"#0000ff" 
+      					},
+						{  
+							"id":"3a",
+							"height":"30px",
+							"width":"30px",
+							"left": "-2450px", 
+							"top": "1200px",
+							"backgroundColor": "#0ff0ff",
+							"opacity": "0.5",
+							"borderColor":"#0000ff" 
+						},
+						{  
+							"id":"3b",
+							"height":"30px",
+							"width":"30px",
+							"left": "-2450px", 
+							"top": "1200px",
+							"backgroundColor": "#0ff0ff",
+							"opacity": "0.5",
+							"borderColor":"#0000ff" 
+						},
+						{  
+							"id":"4a",
+							"height":"30px",
+							"width":"30px",
+							"left": "-2450px", 
+							"top": "1200px",
+							"backgroundColor": "#0ff0ff",
+							"opacity": "0.5",
+							"borderColor":"#0000ff" 
+						},
+						{  
+							"id":"4b",
+							"height":"30px",
+							"width":"30px",
+							"left": "-2450px", 
+							"top": "1200px",
+							"backgroundColor": "#0ff0ff",
+							"opacity": "0.5",
+							"borderColor":"#0000ff" 
+						},
+						{  
+							"id":"5a",
+							"height":"30px",
+							"width":"30px",
+							"left": "-2450px", 
+							"top": "1200px",
+							"backgroundColor": "#0ff0ff",
+							"opacity": "0.5",
+							"borderColor":"#0000ff" 
+						},
+						{  
+							"id":"5b",
+							"height":"30px",
+							"width":"30px",
+							"left": "-2450px", 
+							"top": "1200px",
+							"backgroundColor": "#0ff0ff",
+							"opacity": "0.5",
+							"borderColor":"#0000ff" 
+						},
+												{  
+							"id":"6a",
+							"height":"30px",
+							"width":"30px",
+							"left": "-2450px", 
+							"top": "1200px",
+							"backgroundColor": "#0ff0ff",
+							"opacity": "0.5",
+							"borderColor":"#0000ff" 
+						},
+						{  
+							"id":"6b",
+							"height":"30px",
+							"width":"30px",
+							"left": "-2450px", 
+							"top": "1200px",
+							"backgroundColor": "#0ff0ff",
+							"opacity": "0.5",
+							"borderColor":"#0000ff" 
+						},
+						{  
+							"id":"7a",
+							"height":"30px",
+							"width":"30px",
+							"left": "-2450px", 
+							"top": "1200px",
+							"backgroundColor": "#0ff0ff",
+							"opacity": "0.5",
+							"borderColor":"#0000ff" 
+						},
+						{  
+							"id":"7b",
+							"height":"30px",
+							"width":"30px",
+							"left": "-2450px", 
+							"top": "1200px",
+							"backgroundColor": "#0ff0ff",
+							"opacity": "0.5",
+							"borderColor":"#0000ff" 
+						},
+						{  
+							"id":"8a",
+							"height":"30px",
+							"width":"30px",
+							"left": "-2450px", 
+							"top": "1200px",
+							"backgroundColor": "#0ff0ff",
+							"opacity": "0.5",
+							"borderColor":"#0000ff" 
+						},
+						{  
+							"id":"8b",
+							"height":"30px",
+							"width":"30px",
+							"left": "-2450px", 
+							"top": "1200px",
+							"backgroundColor": "#0ff0ff",
+							"opacity": "0.5",
+							"borderColor":"#0000ff" 
+						}
+        			 ]
+
+      }
+  ]
+
+}
